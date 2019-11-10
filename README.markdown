@@ -1,12 +1,9 @@
-Forked from Buzzfeed's [libgif-js](https://github.com/buzzfeed/libgif-js) and make it hostable as an npm module.
 
 # Overview
 
-Forked from the excelent jsgif project (https://github.com/shachaf/jsgif), which was implemented as a bookmarklet to manipulate animated gifs (http://slbkbs.org/jsgif).
+Forked from https://github.com/kelyvin/libgif-js, which is Forked from Buzzfeed's [libgif-js](https://github.com/buzzfeed/libgif-js), which is forked from jsgif project (https://github.com/shachaf/jsgif).
 
-This is an attempt to pull out the gif parsing and playing logic, seperate it from the bookmarklet, and publish it as a library that you can use in your project.
-
-As an added bonus, you can make gifs "rubbable" so that scrubbing with your mouse (or rubbing with your finger on a touch device) cause the gif to move back and forth.
+This is extended as demonstrated in the PR to the upstream fork. It adds methods which expose the total duration of the GIF and the parsed frame data.
 
 # Example
 
