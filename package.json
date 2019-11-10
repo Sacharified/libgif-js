@@ -1,6 +1,6 @@
 {
-  "name": "libgif",
-  "version": "0.0.2",
+  "name": "libgif-extended",
+  "version": "0.0.3",
   "description": "JavaScript GIF parser and player forked from Buzzfeed",
   "main": "libgif.js",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kelyvin/libgif-js.git"
+    "url": "git+https://github.com/sacharfied/libgif-js.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kelyvin/libgif-js/issues"
+    "url": "https://github.com/sacharfied/libgif-js/issues"
   },
-  "homepage": "https://github.com/kelyvin/libgif-js#readme"
+  "homepage": "https://github.com/sacharfied/libgif-js#readme"
 }
