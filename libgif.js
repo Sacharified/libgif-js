@@ -913,8 +913,8 @@
         }
 
         var calculateDuration = function() {
-            return frames.reduce(function(duration, { delay }) {
-                return duration + delay;
+            return frames.reduce(function(duration, frame) {
+                return duration + frame.delay;
             }, 0);
         }
 
